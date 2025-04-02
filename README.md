@@ -18,19 +18,3 @@
 | Opponent cooperated >15 times total | Always defect | Exploit pushovers |
 | No cooperation in last 15 rounds | Always defect | Punish non-cooperators |
 | Normal case | Alternate 0/1 | Stay unpredictable |
-
-## Design Principles
-
-- **Simple** decision tree
-- **Aggressive** against extreme behaviors
-- **Unpredictable** baseline pattern
-- **Efficient** computation
-
-## Expected Performance
-
-- Strong against:
-  - Always-cooperate bots
-  - Predictable alternators
-- Weak against:
-  - Sophisticated adaptive strategies
-  - Tit-for-tat variants
