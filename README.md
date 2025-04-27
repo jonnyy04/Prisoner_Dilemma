@@ -18,3 +18,7 @@
 | Opponent cooperated >15 times total | Always defect | Exploit pushovers |
 | No cooperation in last 15 rounds | Always defect | Punish non-cooperators |
 | Normal case | Alternate 0/1 | Stay unpredictable |
+
+When selecting the next opponent:
+
+It choose the first available opponent with whom It has played fewer than 200 rounds.
